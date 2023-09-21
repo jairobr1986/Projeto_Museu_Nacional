@@ -30,7 +30,7 @@ a:hover {
     height: 21px;
     text-indent: -9999px;
     display: block;
-    background: url(../img/logo.png);
+    background: url(../img/logo.png) no-repeat;
 }
 
 /* Barra de Navegação
@@ -73,4 +73,11 @@ nav ul li a:hover {
 aside {
     width: 350px;
     float: right;
+    background: ebe7dd;
+}
+
+section #visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
 }
