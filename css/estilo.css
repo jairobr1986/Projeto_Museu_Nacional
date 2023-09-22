@@ -76,8 +76,44 @@ aside {
     background: ebe7dd;
 }
 
-section #visita {
+section#visita {
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* -------------FORMULARIOS------------- */
+
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none
+}
+
+legend {
+    display: none;
 }
